@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Citepage — answers only from your docs</title>
+  <meta name="description" content="Host a help center and an /ask box that cites the paragraph." />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/citepage.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="mark plain" href="/">Citepage<span>.</span></a>
+      <nav class="site">
+        <a href="#how">How</a>
+        <a href="#price">Price</a>
+        <a href="/docs.html">Docs</a>
+        <a href="/app.html">Open the desk</a>
+      </nav>
+    </header>
+    <hr class="rule" />
+    <section class="hero" style="padding-top:48px">
+      <div>
+        <p class="kicker">Help center + /ask</p>
+        <h1>If it isn’t on the page, we don’t say it.</h1>
+        <p class="lede">Citepage hosts the pages and answers only with a citation. Invented plans are a refused answer.</p>
+        <form class="paste" action="/app.html" method="get">
+          <input name="url" type="url" placeholder="https://yourapp.com/docs" aria-label="Docs URL" />
+          <button class="btn" type="submit">Open the desk</button>
+        </form>
+        <p class="hint">Preview is free. $49 to put it on docs.yourapp.com.</p>
+      </div>
+      <aside class="sheet">
+        <header><span>ask.citepage / demo</span><span>cited</span></header>
+        <div class="q">Does Pro include SSO?</div>
+        <div class="a">No. SSO is listed only under Business.</div>
+        <div class="cite"><b>[1] Pricing → Business</b><br />“SSO and SCIM are available on the Business plan.”</div>
+      </aside>
+    </section>
+  </div>
+  <hr class="rule" />
+  <div class="wrap">
+    <section id="how">
+      <h2>Three things. Nothing else.</h2>
+      <div class="cols">
+        <article class="card"><h3>1. Pages</h3><p>Paste Markdown. We keep a quiet help center.</p></article>
+        <article class="card"><h3>2. Index</h3><p>Each sentence can be cited. If it is not stored, it cannot be said.</p></article>
+        <article class="card"><h3>3. Ask</h3><p>/ask returns the paragraph or refuses.</p></article>
+      </div>
+    </section>
+    <section id="price">
+      <h2>Price like a tool.</h2>
+      <div class="price-row">
+        <div class="price"><div class="kicker">Starter</div><div class="amt">$29</div><ul><li>Subdomain</li><li>/ask with citations</li></ul><a class="btn" href="/app.html">Start a preview</a></div>
+        <div class="price featured"><div class="kicker">Pro</div><div class="amt">$49</div><ul><li>Custom domain</li><li>No Citepage mark</li></ul><a class="btn" href="/app.html">Start a preview</a></div>
+      </div>
+    </section>
+    <footer class="site"><span>Citepage</span><span><a href="https://github.com/sarmaasis/citepage">github.com/sarmaasis/citepage</a></span></footer>
+  </div>
+</body>
+</html>
