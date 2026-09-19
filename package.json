@@ -1,0 +1,13 @@
+{
+  "name": "citepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Help center + /ask that only answers with a citation",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
